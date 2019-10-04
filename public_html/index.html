@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Booking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+              shrink-to-fit=no">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery/jquery.slim.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#header").load("header.html"); 
+            });
+        </script> 
+    </head>
+    <body>
+        <div id="header"></div>
+        
+        <div id="booking" class="section">
+	<div class="section-center">
+	<div class="container">
+	<div class="row">
+            <div class="booking-form">
+            <form>
+                <div class="row no-margin">
+                    <div class="col-md-4">
+                    <div class="form-header">
+                        <h2>Book Now</h2>
+                    </div>
+                    </div>
+                    <div class="col-md-7">
+                    <div class="row no-margin">
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <span class="form-label">Check</span>
+                            <input class="form-control" type="date">
+                        </div>
+	            </div>
+                    <div class="col-md-4">
+	            <div class="form-group">
+                        <span class="form-label">Person</span>
+                        <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-2">
+                    <div class="form-btn"> 
+                       <a href="availability.html" 
+                          class="submit-btn">Check availability</a>
+                    </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <span class="form-label">Open at: Monday to Saturday.</span>
+                            <span class="form-label">8.00a.m. to 10p.m.</span>
+                        </div>
+	            </div>
+                </div>
+            </form>
+            </div>
+	</div>
+	</div>
+	</div>
+	</div>
+        
+    </body>
+</html>
